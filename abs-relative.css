@@ -21,13 +21,16 @@
   position: relative;
   top: 0rem;
   left: 10rem;
+  z-index: 5;
 }
+
 .relative-2 {
   background-color: rgba(76, 0, 130, 0.37);
   position: relative;
   top: -5rem;
   left: 15rem;
 }
+
 .absolute {
   position: absolute;
   background-color: khaki;
@@ -35,14 +38,17 @@
   height: 3rem;
   font-size: 0.8rem;
 }
+
 .top-left {
   top: 0;
   left: 0;
 }
+
 .top-right {
   top: 0;
   right: 0;
 }
+
 .bottom-left {
   bottom: 0;
   left: 0;
@@ -52,6 +58,7 @@
   bottom: 0;
   right: 0;
 }
+
 .center {
   top: 50%;
   left: 50%;
